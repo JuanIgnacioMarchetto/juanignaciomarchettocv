@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    max-width: 1410px;
+}
+
+.flotar {
+    background: #000000;
+}
+
+.cuerpo {
+
+    animation: normal;
+    align-self: center;
+    background: #000000;
+    ;
+
+}
+
+.contenedor #cara img {
+    margin-left: 10%;
+    ;
+    width: 55px;
+    height: 52px;
+    left: 16px;
+    top: 5px;
+    border-radius: 50%;
+    background: #C4C4C4;
+    margin-bottom: 35px;
+}
+
+.contenedor h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 22px;
+    margin-top: 50px;
+    float: right;
+    margin-right: -600px;
+
+    color: darkviolet;
+}
+
+.rectangulo div {
+
+    width: 99%;
+    text-align: center;
+    height: 122px;
+    background-color: #666666;
+    background: #666666;
+    border-radius: 10px 10px;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.rectangulo p {
+    margin-left: 5%;
+    position: absolute;
+    width: 100%;
+    height: 69px;
+    left: 34px;
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.rectangulo1 {
+    position: absolute;
+    width: 335px;
+    height: 313px;
+    left: 60px;
+    top: 250px;
+    border-radius: 15px 15px;
+}
+
+.rectangulo2 {
+    position: absolute;
+    width: 335px;
+    height: 313px;
+    left: 400px;
+    top: 250px;
+    border-radius: 15px 15px;
+    ;
+}
+
+.rectangulo3 {
+
+    position: absolute;
+    width: 335px;
+    height: 313px;
+    left: 766px;
+    top: 250px;
+    border-radius: 15px 15px;
+}
+
+.rectangulo4 {
+    position: absolute;
+    width: 335px;
+    height: 313px;
+    left: 1146px;
+    top: 250px;
+    border-radius: 15px 15px;
+    ;
+}
+
+aside div a img {
+
+    width: 300px;
+    height: 300px;
+    border-radius: 20px 20px;
+}
+
+@media(max-width: 700px) {
+    .flotar {
+        margin: 0;
+        padding: 0;
+        background: #000000;
+        align-content: center;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .cuerpo {
+        display: grid;
+        display: flex;
+        display: block;
+        position: static;
+        position: absolute;
+        animation: normal;
+        align-self: center;
+        background: #000000;
+        margin-left: 22%;
+
+    }
+
+    .contenedor #cara img {
+
+        position: absolute;
+        width: 55px;
+        height: 52px;
+        left: -20px;
+        top: 25px;
+        border-radius: 50%;
+        background: #C4C4C4;
+
+    }
+
+    .contenedor h1 {
+        position: absolute;
+        width: 213px;
+        height: 24px;
+        left: 85px;
+        top: 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 22px;
+        ;
+        color: darkviolet;
+    }
+
+    .rectangulo div {
+
+        position: absolute;
+        width: 290px;
+        text-align: center;
+        margin-left: -5px;
+
+        height: 122px;
+        left: 16px;
+        top: 94px;
+        background-color: #666666;
+        background: #666666;
+        border-radius: 10px 10px;
+    }
+
+    .rectangulo p {
+        position: absolute;
+        width: 252px;
+        height: 69px;
+        left: 34px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 17px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-left: -20px;
+    }
+
+    .rectangulo1 {
+
+        position: absolute;
+        width: 135px;
+        height: 135px;
+        left: 16px;
+        top: 250px;
+        border-radius: 15px 15px;
+        background: #C4C4C4;
+    }
+
+    .rectangulo2 {
+        position: absolute;
+        width: 135px;
+        height: 135px;
+        left: 168px;
+        top: 250px;
+        border-radius: 15px 15px;
+        background: #C4C4C4;
+    }
+
+    .rectangulo3 {
+        position: absolute;
+        width: 135px;
+        height: 135px;
+        left: 17px;
+        top: 404px;
+        border-radius: 15px 15px;
+        background: #C4C4C4;
+    }
+
+    .rectangulo4 {
+        position: absolute;
+        width: 135px;
+        height: 135px;
+        left: 169px;
+        top: 404px;
+        border-radius: 15px 15px;
+        background: #C4C4C4;
+    }
+
+    aside div a img {
+        width: 135px;
+        height: 135px;
+        border-radius: 20px 20px;
+    }
+}
